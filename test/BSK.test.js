@@ -262,7 +262,7 @@ describe('Bowling Score Test', () => {
     expect(game.frameScore(2)).toBe(8);
     expect(game.frameScore(3)).toBe(17);
     expect(game.frameScore(4)).toBe(9);
-    expect(game.frameScore(5)).toBe(18);
+    expect(game.frameScore(5)).toBe(17);
     expect(game.frameScore(6)).toBe(8);
     expect(game.frameScore(7)).toBe(20);
     expect(game.frameScore(8)).toBe(18);
